@@ -1,0 +1,79 @@
+
+video::-webkit-media-controls {
+    display:none !important;
+}
+
+video::-webkit-media-controls-panel {
+  display: none!important;
+  -webkit-appearance: none;
+}
+
+video::-webkit-media-controls-play-button {
+  display: none!important;
+  -webkit-appearance: none;
+}
+
+video::-webkit-media-controls-start-playback-button {
+  display: none!important;
+  -webkit-appearance: none;
+}
+video::-webkit-media-controls {
+    opacity: 0;
+}
+
+video {
+  pointer-events: none;
+}
+
+.video-container{ 
+  width: 66%;
+}
+
+.chat-box{ 
+  height: auto;
+  font-family: 'Consolas';
+  font-size: 10pt;
+}
+
+.chat-box-text {
+    color: black;
+    text-align: left;
+    width: 400px;
+    max-width: 80%;
+    margin: auto;
+    font-family: 'Consolas';
+    line-height: 1.6;
+    font-size: 10pt;
+}
+
+input[type=text] {
+  width: 92%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+}
+
+.btn-group button {
+  background-color: white;
+  border: 1px solid black;
+  color: black;
+  padding: 3px 3px;
+  cursor: pointer;
+  float: left;
+  font-family: 'Consolas';
+  font-size: 10pt;
+}
+
+.btn-group:after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.btn-group button:not(:last-child) {
+  border-right: none; 
+}
+
+.btn-group button:hover {
+  background-color: none;
+}
